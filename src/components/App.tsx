@@ -1,12 +1,14 @@
 import './App.css'
-import Header from './Header';
+import Control from './Control';
 import Background from './Background';
+import Header from './Header';
 
 function App() {
 
   return (
   <>
-    <Header />
+    <Header onAboutClick={}/>
+    <Control />
     <Background />
   </>
   )

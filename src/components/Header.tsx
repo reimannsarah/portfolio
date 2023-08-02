@@ -1,4 +1,12 @@
-export default function Header() {
+// import PropTypes from 'prop-types';
+
+interface HeaderProps {
+  onAboutClick: () => void;
+}
+
+const Header: React.FC<HeaderProps> = ({ onAboutClick}) => {
+
+  
   return (
     <div className="header">
       <div>
@@ -6,11 +14,17 @@ export default function Header() {
         <h1>Sarah Reimann</h1>
       </div>
       <div className="nav-btns">
-        <p>About</p>
+        <p onClick={onAboutClick}>About</p>
         <p>Projects</p>
         <p>Contact</p>
       </div>
     </div>
   )
 }
+
+// Header.propTypes = {
+//   onAboutClick: PropTypes.func
+// }
+
+export default Header;
 

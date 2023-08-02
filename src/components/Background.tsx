@@ -1,4 +1,4 @@
-export default function Background() {
+const Background: React.FC = () => {
   return (
     <>
       <div className="circle1"></div>
@@ -7,3 +7,5 @@ export default function Background() {
     </>
   )
 }
+
+export default Background;
