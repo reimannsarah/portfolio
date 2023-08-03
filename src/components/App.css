@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Source+Sans+3:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fjalla+One&family=Montserrat&family=Source+Sans+3:wght@300&display=swap');
 
 :root {
   --yellow: #FFBA08;
@@ -8,16 +8,54 @@
   --prussian-blue: #032B43;
   --green: #136F63;
   --light-green: #74ddcf;
+  --ultra-blue: #4166f5;
 
   --header-font: "Montserrat";
   --body-font: "Source Sans 3";
+  --landing-pg-title1: "Fjalla One";
+  --landing-pg-title2: "Abril Fat Face";
 }
 
 body {
   background-color: snow;
 }
 
+.land-pg-background {
+  position: absolute;
+  z-index: -2;
+  width: 100vw;
+  height: 100vh;
+}
 
+.lp-title {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: flex-end;
+  bottom: 0;
+  right: 15px;
+}
+
+.lp-title h1 {
+  font-family: var(--landing-pg-title2);
+  color: white;
+  font-size: 150px;
+  margin: 0;
+}
+
+.arrow {
+  font-family: var(--landing-pg-title2);
+  color: white;
+  font-size: 150px;
+  margin: 0;
+  text-decoration: none;
+}
+
+.arrow:hover {
+  cursor: pointer;
+  color: var(--ultra-blue);
+  transition-duration: 0.2s;
+}
 
 .header {
   display: flex;
@@ -29,6 +67,7 @@ body {
 .header h1 {
   font-family: var(--header-font);
   font-size: 50px;
+  transition-duration: 0.2s;
 }
 
 .header h1:hover {
