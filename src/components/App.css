@@ -13,6 +13,10 @@
   --body-font: "Source Sans 3";
 }
 
+body {
+  background-color: snow;
+}
+
 
 
 .header {
@@ -32,6 +36,10 @@
   width: 30%;
   justify-content: space-evenly;
   font-family: var(--body-font);
+}
+
+.nav-btns:hover {
+  cursor: pointer;
 }
 
 .header-circle {
@@ -67,6 +75,7 @@
   bottom: -200px;
   left: -100px;
   border-radius: 50%;
+  opacity: 0.9;
 }
 
 .circle2 {
@@ -85,6 +94,7 @@
   border-radius: 50%;
   display: block;
   margin: 0 auto;
+  opacity: 0.9;
 }
 
 .circle3 {
@@ -102,4 +112,15 @@
   right: -200px;
   top: 120px;
   border-radius: 50%;
+  opacity: 0.9;
+}
+
+.bio {
+  width: 500px;
+  float: right;
+  margin-right: 130px;
+  margin-top: 100px;
+  color: white;
+  font-family: var(--header-font);
+  font-size: 50px;
 }
