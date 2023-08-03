@@ -133,7 +133,7 @@ body {
   opacity: 0.9;
 }
 
-.bio {
+.intro {
   width: 500px;
   float: right;
   margin-right: 130px;
@@ -141,4 +141,24 @@ body {
   color: white;
   font-family: var(--header-font);
   font-size: 50px;
+}
+
+.port-pic {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  border: 10px solid var(--prussian-blue);
+  float: left;
+  margin-top: 100px;
+  margin-left: 240px;
+}
+
+.tech-stack {
+  width: 500px;
+  float: left;
+  margin-top: 100px;
+  margin-left: 170px;
+  color: white;
+  font-family: var(--body-font);
+  font-size: 30px;
 }
