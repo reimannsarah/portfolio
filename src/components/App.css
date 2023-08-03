@@ -31,11 +31,16 @@ body {
   font-size: 50px;
 }
 
+.header h1:hover {
+  cursor: pointer;
+}
+
 .nav-btns {
   display: flex;
   width: 30%;
   justify-content: space-evenly;
   font-family: var(--body-font);
+  font-size: 20px;
 }
 
 .nav-btns:hover {
