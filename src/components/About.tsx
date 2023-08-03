@@ -1,15 +1,9 @@
-// import PropTypes from 'prop-types';
-
 const About: React.FC = () => {
   return (
-    <div>
-
+    <div className="bio">
+      <p>full stack developer. oregon native. colorado college grad. loves running for fun, making art, and fresh pasta.</p>
     </div>
   )
 }
-
-// About.propTypes = {
-//   onAboutClick: PropTypes.func
-// }
 
 export default About;
