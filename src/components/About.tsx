@@ -1,7 +1,7 @@
 const About: React.FC = () => {
   return (
-    <div className="bio">
-      <p>full stack developer. oregon native. colorado college grad. loves running for fun, making art, and fresh pasta.</p>
+    <div>
+      <p>About</p>
     </div>
   )
 }
