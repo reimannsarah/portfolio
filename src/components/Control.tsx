@@ -1,27 +1,66 @@
 import { useState } from 'react';
 import React from 'react';
 import Header from './Header';
+import Home from './Home';
 import About from './About';
+import Projects from './Projects';
+import Contact from './Contact';
 
 const Control: React.FC = () => {
 
-  const [aboutVisible, setAboutVisible] = useState<boolean>(true);
+  const [homeVisible, setHomeVisible] = useState(true);
+  const [aboutVisible, setAboutVisible] = useState<boolean>(false);
+  const [projectsVisible, setProjectsVisible] = useState<boolean>(false);
+  const [contactVisible, setContactVisible] = useState<boolean>(false);
+
+  const handleHomeClick = () => {
+    setHomeVisible(true);
+    setAboutVisible(false);
+    setProjectsVisible(false);
+    setContactVisible(false);
+  }
 
   const handleAboutClick = () => {
     setAboutVisible(true);
+    setHomeVisible(false);
+    setProjectsVisible(false);
+    setContactVisible(false);
+  }
+
+  const handleProjectsClick = () => {
+    setProjectsVisible(true);
+    setHomeVisible(false);
+    setAboutVisible(false);
+    setContactVisible(false);
+  }
+
+  const handleContactClick = () => {
+    setContactVisible(true);
+    setHomeVisible(false);
+    setProjectsVisible(false);
+    setAboutVisible(false);
   }
 
   let currentlyVisible = null;
 
-    if (aboutVisible) {
+    if (homeVisible) {
+      currentlyVisible = 
+      <Home />
+    } else if (aboutVisible) {
       currentlyVisible = 
       <About />
+    } else if (projectsVisible) {
+      currentlyVisible = 
+      <Projects />
+    } else if (contactVisible) {
+      currentlyVisible = 
+      <Contact />
     }
   
     return (
       <React.Fragment>
-        <Header onAboutClick={handleAboutClick}/>
-        {currentlyVisible}
+        <Header onHomeClick={handleHomeClick} onAboutClick={handleAboutClick} onProjectsClick={handleProjectsClick} onContactClick={handleContactClick}/>
+        {currentlyVisible} 
       </React.Fragment>
     )
 }
