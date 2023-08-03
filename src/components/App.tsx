@@ -1,15 +1,15 @@
 import './App.css'
 import Control from './Control';
-import Background from './Background';
-import Header from './Header';
+// import Background from './Background';
 
 function App() {
 
   return (
   <>
-    <Header onAboutClick={}/>
+    <div className="circle1"></div>
+    <div className="circle2"></div>
+    <div className="circle3"></div>
     <Control />
-    <Background />
   </>
   )
 }

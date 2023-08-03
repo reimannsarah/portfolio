@@ -2,7 +2,6 @@ import { useState } from 'react';
 import React from 'react';
 import Header from './Header';
 import About from './About';
-import Background from './Background';
 
 const Control: React.FC = () => {
 
@@ -16,7 +15,6 @@ const Control: React.FC = () => {
 
     if (aboutVisible) {
       currentlyVisible = 
-      // <Background />
       <About />
     }
   
