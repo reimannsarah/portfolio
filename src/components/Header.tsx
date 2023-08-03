@@ -1,5 +1,3 @@
-// import PropTypes from 'prop-types';
-
 interface HeaderProps {
   onAboutClick: () => void;
 }
@@ -14,17 +12,13 @@ const Header: React.FC<HeaderProps> = ({ onAboutClick}) => {
         <h1>Sarah Reimann</h1>
       </div>
       <div className="nav-btns">
-        <p onClick={onAboutClick}>About</p>
-        <p>Projects</p>
-        <p>Contact</p>
+        <p className="about-btn" onClick={onAboutClick}>About</p>
+        <p className="projects-btn">Projects</p>
+        <p className="contact-btn">Contact</p>
       </div>
     </div>
   )
 }
-
-// Header.propTypes = {
-//   onAboutClick: PropTypes.func
-// }
 
 export default Header;
 
