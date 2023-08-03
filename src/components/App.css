@@ -33,6 +33,7 @@ body {
 
 .header h1:hover {
   cursor: pointer;
+  color: var(--green);
 }
 
 .nav-btns {
@@ -45,6 +46,18 @@ body {
 
 .nav-btns:hover {
   cursor: pointer;
+}
+
+.about-btn:hover {
+  color: var(--steel-blue);
+}
+
+.projects-btn:hover {
+  color: var(--steel-blue);
+}
+
+.contact-btn:hover {
+  color: var(--steel-blue);
 }
 
 .header-circle {
