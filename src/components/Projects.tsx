@@ -2,6 +2,7 @@ interface Project {
   name: string;
   src: string;
   description: string;
+  techStack: string;
   url: string;
 }
 
@@ -19,6 +20,7 @@ const Projects: React.FC<ProjectsProps> = ({ projects }) => {
           <img src={project.src}/>
           <h1 className="proj-title">{project.name}</h1>
           <p>{project.description}</p>
+          <p>{project.techStack}</p>
         </div>
         )
       })}
