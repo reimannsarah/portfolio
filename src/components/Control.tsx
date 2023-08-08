@@ -5,6 +5,7 @@ import Home from './Home';
 import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
+import projectList from './store';
 
 const Control: React.FC = () => {
 
@@ -12,6 +13,7 @@ const Control: React.FC = () => {
   const [aboutVisible, setAboutVisible] = useState<boolean>(false);
   const [projectsVisible, setProjectsVisible] = useState<boolean>(false);
   const [contactVisible, setContactVisible] = useState<boolean>(false);
+  // const [visibleProjectIndex, setVisibleProjectIndex] = useState(0);
 
   const handleHomeClick = () => {
     setHomeVisible(true);
@@ -41,7 +43,16 @@ const Control: React.FC = () => {
     setAboutVisible(false);
   }
 
+  // const handleNextClick = () => {
+  //   setVisibleProjectIndex(visibleProjectIndex + 1);
+  // }
+
+  // const handlePrevClick = () => {
+  //   setVisibleProjectIndex(visibleProjectIndex - 1);
+  // }
+
   let currentlyVisible = null;
+  // const currentProject = projectList[visibleProjectIndex];
 
     if (homeVisible) {
       currentlyVisible = 
@@ -51,7 +62,7 @@ const Control: React.FC = () => {
       <About />
     } else if (projectsVisible) {
       currentlyVisible = 
-      <Projects />
+        <Projects projects={projectList}/>
     } else if (contactVisible) {
       currentlyVisible = 
       <Contact />
