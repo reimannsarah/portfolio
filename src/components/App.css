@@ -323,5 +323,23 @@ body {
 }
 
 .contact {
-  
+  width: 500px;
+  float: right;
+  margin-right: 300px;
+  margin-top: 170px;
+  color: white;
+  font-family: var(--header-font);
+  font-size: 50px;
+}
+
+.contact a {
+  text-decoration: none;
+}
+
+.contact p a:hover {
+  color: var(--steel-blue);
+}
+
+.contact a:visited {
+  color: inherit;
 }
