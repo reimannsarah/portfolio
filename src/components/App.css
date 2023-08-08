@@ -308,12 +308,12 @@ body {
 }
 
 .about-text {
-  width: 45%;
+  width: 40%;
   font-family: var(--body-font);
   font-size: 18px;
   color: white;
   float: right;
-  margin: 150px 30px;
+  margin: 200px 30px;
 }
 
 .about-name {
