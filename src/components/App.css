@@ -79,6 +79,7 @@ body {
   font-family: var(--header-font);
   font-size: 50px;
   transition-duration: 0.2s;
+  margin-left: 10px;
 }
 
 .header h1:hover {
