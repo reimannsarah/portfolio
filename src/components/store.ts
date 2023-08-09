@@ -2,6 +2,9 @@ import madLibs from '../assets/imgs/mad-libs.png';
 import rsvp from '../assets/imgs/bday-RSVP.png';
 import pcWebsite from '../assets/imgs/pc-website.png';
 import mouseMingle from '../assets/imgs/mouse-mingle.png';
+import prioritime from '../assets/imgs/prioritime.png';
+import currency from '../assets/imgs/currency.png';
+import galactic from '../assets/imgs/galactic.png';
 
 
 const projects: { name: string, src: string, description: string, techStack:string, url: string } [] = [
@@ -35,6 +38,30 @@ const projects: { name: string, src: string, description: string, techStack:stri
     description: "Group project from Epicodus to practice C#. This is a dating website for rodents. There is an API that makes use of a MySQL database. A use can create a profile and save their data to the database. There is a client side with a front end also built with C#.",
     techStack: "C# | .NET | ASP.NET Core | MVC | Entity Framework Core | EF Core Migrations | Swashbuckle | Swagger | MySQL | RestSharp",
     url: "https://github.com/reimannsarah/MouseMingleMonoRepo.git"
+  },
+
+  {
+    name: "Prioritime",
+    src: prioritime,
+    description: "Groupd project from Epicodus. This is an app where you can enter the amount of free time you have on a given day and then split that up into 15 minute blocks and assign the time to various activities.",
+    techStack: "HTML | CSS | Javascript | Webpack | npm",
+    url: "https://github.com/reimannsarah/prioritime.git"
+  },
+
+  {
+    name: "Currency Exchanger",
+    src: currency,
+    description: "An application where a user can exchange currency rates between 160 different currencies.",
+    techStack: "HTML | Javascript | CSS | Webpack | npm",
+    url: "https://github.com/reimannsarah/currency-exchanger.git"
+  },
+
+  {
+    name: "Super Galactic Age Calculator",
+    src: galactic,
+    description: "Calculate your age and the time between your current age and a past or future age depending on the solar years of a few different planets.",
+    techStack: "Javascript | HTML | CSS Webpack | npm",
+    url: "https://github.com/reimannsarah/super-galactic-age-calculator.git"
   },
   
 ];
