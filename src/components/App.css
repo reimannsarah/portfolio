@@ -184,6 +184,29 @@ body {
   opacity: 0.9;
 }
 
+.easter-egg {
+  z-index: 2;
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  width: 100px;
+}
+
+#egg {
+  text-decoration: none;
+  font-family: var(--header-font);
+  font-size: 60px;
+  color: white;
+  opacity: 0;
+  transition-duration: 0.3s;
+}
+
+#egg:hover {
+  opacity: 1;
+}
+
+
+
 .intro {
   width: 500px;
   float: right;

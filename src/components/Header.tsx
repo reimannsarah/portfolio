@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 interface HeaderProps {
   onHomeClick: () => void;
   onAboutClick: () => void;
@@ -18,6 +20,9 @@ const Header: React.FC<HeaderProps> = ({ onHomeClick, onAboutClick, onProjectsCl
         <p className="about-btn" onClick={onAboutClick}>About</p>
         <p className="projects-btn" onClick={onProjectsClick}>Projects</p>
         <p className="contact-btn" onClick={onContactClick}>Contact</p>
+      </div>
+      <div className="easter-egg">
+        <Link to="/" id="egg">View Cover Art</Link>
       </div>
     </div>
   )
