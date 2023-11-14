@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fjalla+One&family=Montserrat&family=Source+Sans+3:wght@300&display=swap');
 
 :root {
-  --yellow: #efae42;
-  --light-yellow: #f5d073;
-  --steel-blue: #253370;
-  --red: #973a29;
-  --prussian-blue: #032B43;
-  --green: #238968;
-  --light-green: #67c8bb;
-  --ultra-blue: #4166f5;
+  --red: #FA003F;
+  --orange: #EE6123;
+  --yellow: #FFCF00;
+  --green: #00916E;
+  --blue: #0C4767;
+  --background-color-linen: #FEEFE5;
 
   --header-font: "Montserrat";
   --body-font: "Source Sans 3";
@@ -16,8 +14,28 @@
   --landing-pg-title2: "Abril Fat Face";
 }
 
+.app {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background-color: snow;
+  background-color: var(--background-color-linen);
+}
+
+.header {
+  margin: 0;
+  padding: 10px;
+  width: 100vw;
+  height: 25vh;
+  position: absolute;
+  top: 0;
+  background-color: var(--blue);
+}
+
+.logo img{
+  position: relative;
+  width: 25%;
 }
 
 .land-pg-background {
@@ -68,12 +86,12 @@ body {
   transition-duration: 0.2s;
 }
 
-.header {
+/* .header {
   display: flex;
   justify-content: space-between;
   align-items: first baseline;
   margin: 0 5%;
-}
+} */
 
 .header h1 {
   font-family: var(--header-font);
