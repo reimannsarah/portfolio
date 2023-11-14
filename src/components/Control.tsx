@@ -43,16 +43,7 @@ const Control: React.FC = () => {
     setAboutVisible(false);
   }
 
-  // const handleNextClick = () => {
-  //   setVisibleProjectIndex(visibleProjectIndex + 1);
-  // }
-
-  // const handlePrevClick = () => {
-  //   setVisibleProjectIndex(visibleProjectIndex - 1);
-  // }
-
   let currentlyVisible = null;
-  // const currentProject = projectList[visibleProjectIndex];
 
     if (homeVisible) {
       currentlyVisible = 
