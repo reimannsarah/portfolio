@@ -1,28 +1,20 @@
-import { Link } from 'react-router-dom';
+import logo from '../assets/imgs/logo.png'
+import './App.css';
 
-interface HeaderProps {
-  onHomeClick: () => void;
-  onAboutClick: () => void;
-  onProjectsClick: () => void;
-  onContactClick: () => void;
-}
+// interface HeaderProps {
+//   onHomeClick: () => void;
+//   onAboutClick: () => void;
+//   onProjectsClick: () => void;
+//   onContactClick: () => void;
+// }
 
-const Header: React.FC<HeaderProps> = ({ onHomeClick, onAboutClick, onProjectsClick, onContactClick}) => {
+const Header: React.FC = () => {
 
   
   return (
-    <div className="header">
-      <div>
-        <div className="header-circle"></div>
-        <h1 onClick={onHomeClick}>Sarah Reimann</h1>
-      </div>
-      <div className="nav-btns">
-        <p className="about-btn" onClick={onAboutClick}>About</p>
-        <p className="projects-btn" onClick={onProjectsClick}>Projects</p>
-        <p className="contact-btn" onClick={onContactClick}>Contact</p>
-      </div>
-      <div className="easter-egg">
-        <Link to="/" id="egg">View Cover Art</Link>
+    <div className='header'>
+      <div className="logo">
+        <img src={logo} alt="logo" />
       </div>
     </div>
   )
