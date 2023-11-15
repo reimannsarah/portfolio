@@ -1,6 +1,5 @@
 import logo from '../assets/imgs/logo.png'
-import Button from './atoms/Button';
-import './App.css';
+// import Button from './atoms/Button';
 
 // interface HeaderProps {
 //   onHomeClick: () => void;
@@ -14,13 +13,11 @@ const Header: React.FC = () => {
   
   return (
     <div className='header'>
-      <div>
-        <img src={logo} alt="logo" className='logo'/>
+      <div className='logo'>
+        <img src={logo} alt="logo"/>
       </div>
-      <div className='navbar'>
-        <Button children="Projects"/>
-        <Button children="About"/>
-        <Button children="Contact"/>
+      <div className='header-name'>
+        <p>sarah reimann</p>
       </div>
     </div>
   )
