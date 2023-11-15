@@ -1,4 +1,5 @@
 import logo from '../assets/imgs/logo.png'
+import Button from './atoms/Button';
 import './App.css';
 
 // interface HeaderProps {
@@ -13,8 +14,13 @@ const Header: React.FC = () => {
   
   return (
     <div className='header'>
-      <div className="logo">
-        <img src={logo} alt="logo" />
+      <div>
+        <img src={logo} alt="logo" className='logo'/>
+      </div>
+      <div className='navbar'>
+        <Button children="Projects"/>
+        <Button children="About"/>
+        <Button children="Contact"/>
       </div>
     </div>
   )
