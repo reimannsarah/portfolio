@@ -24,6 +24,14 @@ body {
   overflow-x: hidden;
 }
 
+.header-name p {
+  width: 100%;
+  color: var(--background-color-linen);
+  font-size: 40px;
+  display: flex;
+  align-items: flex-end;
+}
+
 .header {
   margin-left: -4;
   margin: 0;
@@ -38,11 +46,16 @@ body {
 }
 
 .logo {
-  position: relative;
-  width: 25%;
+  width: 50%;
 }
 
-.navbar {
+.logo img {
+  /* position: relative; */
+  width: 50%;
+}
+
+.header-name {
+  width: 50%;
   display: flex;
   align-items: flex-end;
 }
