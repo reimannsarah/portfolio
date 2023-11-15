@@ -21,9 +21,11 @@
 
 body {
   background-color: var(--background-color-linen);
+  overflow-x: hidden;
 }
 
 .header {
+  margin-left: -4;
   margin: 0;
   padding: 10px;
   width: 100vw;
@@ -31,11 +33,18 @@ body {
   position: absolute;
   top: 0;
   background-color: var(--blue);
+  display: flex;
+  flex-direction: row;
 }
 
-.logo img{
+.logo {
   position: relative;
   width: 25%;
+}
+
+.navbar {
+  display: flex;
+  align-items: flex-end;
 }
 
 .land-pg-background {
