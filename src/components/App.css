@@ -14,51 +14,48 @@
   --landing-pg-title2: "Abril Fat Face";
 }
 
-.app {
+body {
   margin: 0;
-  padding: 0;
+  background-color: var(--background-color-linen);
+  display: grid;
+  grid-template-columns: repeat(24, 1fr);
+  grid-template-rows: 100vh;
 }
 
-body {
-  background-color: var(--background-color-linen);
-  overflow-x: hidden;
+.header-name {
+  width: 50%;
+  grid-column-start: 11;
+  grid-column-end: 24;
 }
 
 .header-name p {
   width: 100%;
   color: var(--background-color-linen);
   font-size: 40px;
-  display: flex;
-  align-items: flex-end;
+  right: 0;
+
 }
 
 .header {
-  margin-left: -4;
   margin: 0;
-  padding: 10px;
   width: 100vw;
-  height: 25vh;
+  height: 30vh;
   position: absolute;
   top: 0;
   background-color: var(--blue);
-  display: flex;
-  flex-direction: row;
 }
 
 .logo {
+  position: absolute;
   width: 50%;
 }
 
 .logo img {
-  /* position: relative; */
-  width: 50%;
+  /* position: absolute; */
+  width: 35%;
 }
 
-.header-name {
-  width: 50%;
-  display: flex;
-  align-items: flex-end;
-}
+
 
 .land-pg-background {
   position: absolute;
