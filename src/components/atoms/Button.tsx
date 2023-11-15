@@ -4,8 +4,8 @@ interface Button {
 
 const Button: React.FC<Button> = ({children}) => {
   return (
-    <div className="button">
-      <button>{children}</button>
+    <div>
+      <button className="button">{children}</button>
     </div>
   )
 }
