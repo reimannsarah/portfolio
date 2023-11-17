@@ -45,7 +45,7 @@ body {
 .header-name p {
   height: 5vh;
   color: var(--background-color-linen);
-  font-size: 60px;
+  font-size: 70px;
   margin: 0;
 }
 
@@ -54,10 +54,13 @@ body {
 .logo {
   position: absolute;
   width: 50%;
+  grid-column-start: 2;
+  grid-row-start: 2;
 }
 
 .logo img {
-  width: 35%;
+  width: 30vw;
+  
 }
 
 
