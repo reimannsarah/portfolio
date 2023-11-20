@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fjalla+One&family=Montserrat&family=Source+Sans+3:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fjalla+One&family=Inter&family=Montserrat&family=Source+Sans+3:wght@300&display=swap');
 
 :root {
   --red: #FA003F;
@@ -12,6 +12,7 @@
   --body-font: "Source Sans 3";
   --landing-pg-title1: "Fjalla One";
   --landing-pg-title2: "Abril Fat Face";
+  --header-name: "Inter";
 }
 
 body {
@@ -33,6 +34,7 @@ body {
   color: var(--background-color-linen);
   margin: 0;
   font-size: 150px;
+  font-family: var(--header-name);
   position: absolute;
   right: 15px;
   bottom: 15px;
@@ -57,28 +59,28 @@ body {
   }
 }
 
-@media screen and (max-width: 980px)  {
+@media screen and (max-width: 1100px)  {
   .header-name {
     font-size: 100px;
     line-height: 66.66px;
   }
 }
 
-@media screen and (max-width: 870px)  {
+@media screen and (max-width: 960px)  {
   .header-name {
     font-size: 60px;
     line-height: 53.33px;
   }
 }
 
-@media screen and (max-width: 640px)  {
+@media screen and (max-width: 700px)  {
   .header-name {
     font-size: 50px;
     line-height: 33.33px;
   }
 }
 
-@media screen and (max-width: 580px)  {
+@media screen and (max-width: 620px)  {
   .header-name {
     font-size: 40px;
     line-height: 26.66px;
