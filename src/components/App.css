@@ -22,40 +22,43 @@ body {
 .header {
   margin: 0;
   width: 100vw;
-  height: 30vh;
+  height: 290px;
   position: absolute;
   top: 0;
   background-color: var(--blue);
-  display: grid;
-  grid-template-columns: repeat(24, 1fr);
-  grid-template-rows: repeat(6, 5vh);
 }
 
 .header-name {
-  height: 5vh;
-  z-index: 3;
-  grid-column-start: 14;
-  grid-column-end: 24;
-  grid-row-end: 7;
-}
-
-.header-name p {
-  height: 5vh;
+  line-height: 100px;
   color: var(--background-color-linen);
-  font-size: 70px;
   margin: 0;
+  font-size: 150px;
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  z-index: 3;
 }
-
-
 
 .logo {
   position: absolute;
-  width: 50%;
-  grid-column-start: 2;
-  grid-row-start: 2;
+  top: 15px;
+  left: 15px;
 }
 
 .logo img {
-  width: 30vw;
+  width: 260px;
   
+}
+
+@media screen and (max-width: 860px)  {
+  .header-name {
+    height: 10vh;
+    color: var(--background-color-linen);
+    margin: 0;
+    font-size: 80px;
+    position: absolute;
+    right: 15px;
+    bottom: 1%;
+    z-index: 3;
+  }
 }
