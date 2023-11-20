@@ -5,7 +5,7 @@ import './App.css'
 // import LandingPage from './LandingPage';
 // import Home from './Home';
 // import Contact from './Contact';
-import Header from './Header';
+import Header from './molecules/Header';
 // import Projects from './Projects';
 
 function App() {
