@@ -1,4 +1,4 @@
-import logo from '../assets/imgs/logo.png'
+import logo from '../../assets/imgs/logo.png'
 // import Button from './atoms/Button';
 
 // interface HeaderProps {
