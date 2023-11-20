@@ -1,12 +1,11 @@
 interface Button {
   children: string;
+  onClick: () => void;
 }
 
-const Button: React.FC<Button> = ({children}) => {
+const Button: React.FC<Button> = ({children, onClick}) => {
   return (
-    <div>
-      <button className="button">{children}</button>
-    </div>
+    <button className="button" onClick={onClick}>{children}</button>
   )
 }
 
