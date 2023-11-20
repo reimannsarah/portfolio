@@ -16,9 +16,7 @@ const Header: React.FC = () => {
       <div className='logo'>
         <img src={logo} alt="logo"/>
       </div>
-      <div className='header-name'>
-        <p>sarah reimann</p>
-      </div>
+        <p className='header-name'>sarah reimann</p>
     </div>
   )
 }
