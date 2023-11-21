@@ -1,7 +1,9 @@
+import pageStrings from "../../assets/text/pageStrings";
+
 const Skills = () => {
   return (
     <div className="skills">
-      <h1>skills</h1>
+      <p>{pageStrings.skills_subheader}</p>
       <div className="skills-circle"></div>
     </div>
   )
