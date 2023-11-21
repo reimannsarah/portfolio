@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fjalla+One&family=Inter&family=Montserrat&family=Source+Sans+3:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fjalla+One&family=Inter&family=Lora&family=Montserrat&family=Roboto+Mono&family=Source+Sans+3:wght@300&display=swap');
 
 :root {
   --red: #FA003F;
@@ -12,7 +12,9 @@
   --body-font: "Source Sans 3";
   --landing-pg-title1: "Fjalla One";
   --landing-pg-title2: "Abril Fat Face";
-  --header-name: "Inter";
+  --header: "Inter";
+  --subheader: "Roboto Mono";
+  --body-text: "Lora";
 }
 
 body {
@@ -36,7 +38,7 @@ body {
   margin: 0;
   line-height: 100px;
   font-size: 150px;
-  font-family: var(--header-name);
+  font-family: var(--header);
   z-index: 2;
   color: var(--background-color-linen);
 }
@@ -59,7 +61,6 @@ body {
   width: 100%;
   margin-top: 3%;
   align-items: center;
-  font-family: var(--header-font);
   justify-content: space-around;
 }
 
@@ -67,6 +68,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.skills h1 {
+  font-family: var(--subheader);
 }
 
 .skills-circle {
@@ -78,6 +83,14 @@ body {
 
 .edu-exp {
   width: 200px;
+}
+
+#education-tab, #experience-tab {
+  font-family: var(--subheader);
+}
+
+.edu-exp ul li {
+  font-family: var(--body-text);
 }
 
 @media screen and (max-width: 1150px)  {
