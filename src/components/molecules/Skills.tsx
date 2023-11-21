@@ -1,7 +1,7 @@
 const Skills = () => {
   return (
-    <div>
-      <p>skills</p>
+    <div className="skills">
+      <h1>skills</h1>
       <div className="skills-circle"></div>
     </div>
   )
