@@ -1,55 +1,6 @@
-// import Button from '../atoms/Button';
-// import { useState } from 'react';
-
-// const EduExp: React.FC = () => {
-//   const [education, setEducation] = useState(true);
-//   const [experience, setExperience] = useState(false);
-
-//   const eduExpClick = () => {
-//     setEducation(!education);
-//     setExperience(!experience);
-//   };
-
-//   return (
-//     <div className='edu-exp'>
-//       <div className='edu-exp-buttons'>
-//         <Button children="education" onClick={eduExpClick}/>
-//         <Button children="experience" onClick={eduExpClick}/>
-//       </div>
-      
-//       {education && (
-//         <div className='education'>
-//           <ul>
-//             <li>school</li>
-//             <li>more school</li>
-//             <li>school</li>
-//             <li>more school</li>
-//             <li>school</li>
-//             <li>more school</li>
-//           </ul>
-//         </div>
-//       )}
-
-//       {experience && (
-//         <div className='experience'>
-//           <ul>
-//             <li>work experience</li>
-//             <li>other experiences</li>
-//             <li>work experience</li>
-//             <li>other experiences</li>
-//             <li>work experience</li>
-//             <li>other experiences</li>
-//           </ul>
-//         </div>
-//       )}
-//     </div>
-//   );
-// };
-
-// export default EduExp;
-
 import { useState } from 'react';
 import { Tab, Tabs, Typography, Slide } from '@mui/material';
+import pageStrings from '../../assets/text/pageStrings';
 
 const EduExp: React.FC = () => {
   const [value, setValue] = useState(0);
@@ -73,14 +24,11 @@ const EduExp: React.FC = () => {
       <Slide direction="right" in={value === 0} mountOnEnter unmountOnExit>
         <div className='education'>
           <Typography>
-            <ul>
-              <li>school</li>
-              <li>more school</li>
-              <li>school</li>
-              <li>more school</li>
-              <li>school</li>
-              <li>more school</li>
-            </ul>
+            {pageStrings.education.map((item, index) => (
+              <div key={index}>
+                {item}
+              </div>
+            ))}
           </Typography>
         </div>
       </Slide>
@@ -88,14 +36,11 @@ const EduExp: React.FC = () => {
       <Slide direction="right" in={value === 1} mountOnEnter unmountOnExit>
         <div className='experience'>
           <Typography>
-            <ul>
-              <li>work experience</li>
-              <li>other experiences</li>
-              <li>work experience</li>
-              <li>other experiences</li>
-              <li>work experience</li>
-              <li>other experiences</li>
-            </ul>
+            {pageStrings.experience.map((item, index) => (
+              <div key={index}>
+                {item}
+              </div>
+            ))}
           </Typography>
         </div>
       </Slide>
