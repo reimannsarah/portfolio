@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Tab, Tabs, Typography, Slide } from '@mui/material';
+import { Tab, Tabs, Slide } from '@mui/material';
 import pageStrings from '../../assets/text/pageStrings';
 
 const EduExp: React.FC = () => {
@@ -11,37 +11,39 @@ const EduExp: React.FC = () => {
 
   return (
     <div className='edu-exp'>
-      <Tabs
-        value={value}
-        onChange={handleChange}
-        variant="fullWidth"
-        aria-label="edu-exp-tabs"
-      >
-        <Tab label="Education" id="education-tab" />
-        <Tab label="Experience" id="experience-tab" />
-      </Tabs>
+      <div className='tabs'>
+        <Tabs
+          value={value}
+          onChange={handleChange}
+          variant="fullWidth"
+          aria-label="edu-exp-tabs"
+        >
+          <Tab label="Education" id="education-tab" />
+          <Tab label="Experience" id="experience-tab" />
+        </Tabs>
+      </div>
       
       <Slide direction="right" in={value === 0} mountOnEnter unmountOnExit>
         <div className='education'>
-          <Typography>
+          <div>
             {pageStrings.education.map((item, index) => (
-              <div key={index}>
+              <p key={index}>
                 {item}
-              </div>
+              </p>
             ))}
-          </Typography>
+          </div>
         </div>
       </Slide>
 
       <Slide direction="right" in={value === 1} mountOnEnter unmountOnExit>
         <div className='experience'>
-          <Typography>
+          <div>
             {pageStrings.experience.map((item, index) => (
-              <div key={index}>
+              <p key={index}>
                 {item}
-              </div>
+              </p>
             ))}
-          </Typography>
+          </div>
         </div>
       </Slide>
     </div>
