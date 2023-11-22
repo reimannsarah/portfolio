@@ -31,6 +31,20 @@ const pageStrings = {
     }
   ],
   skills_subheader: "skills",
+  skills: [
+    {
+      name: "JavaScript",
+      image: "image"
+    },
+    {
+      name: "TypeScript",
+      image: "image"
+    },
+    {
+      name: "React",
+      image: "image"
+    },
+  ]
 }
 
 export default pageStrings;
