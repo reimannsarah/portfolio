@@ -23,7 +23,7 @@ const EduExp: React.FC = () => {
         </Tabs>
       </div>
       
-      <Slide direction="right" in={value === 0} mountOnEnter unmountOnExit>
+      <Slide direction="right" in={value === 0} timeout={100} mountOnEnter unmountOnExit>
         <div className='education'>
           <div>
             {pageStrings.education.map((item, index) => (
