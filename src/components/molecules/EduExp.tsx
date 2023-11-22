@@ -17,6 +17,12 @@ const EduExp: React.FC = () => {
           onChange={handleChange}
           variant="fullWidth"
           aria-label="edu-exp-tabs"
+          sx={{
+            "& .MuiTabs-indicator": {
+              backgroundColor: '#00916E'
+            },
+          }}
+        
         >
           <Tab label="Education" id="education-tab" />
           <Tab label="Experience" id="experience-tab" />
