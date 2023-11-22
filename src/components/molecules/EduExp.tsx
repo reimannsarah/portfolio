@@ -27,9 +27,12 @@ const EduExp: React.FC = () => {
         <div className='education'>
           <div>
             {pageStrings.education.map((item, index) => (
-              <p key={index}>
-                {item}
-              </p>
+              <div key={index}>
+              <h3>{item.school}</h3>
+              <p>{item.dates}</p>
+              <p>{item.degree}</p>
+              <p>{item.location}</p>
+            </div>
             ))}
           </div>
         </div>
@@ -39,9 +42,12 @@ const EduExp: React.FC = () => {
         <div className='experience'>
           <div>
             {pageStrings.experience.map((item, index) => (
-              <p key={index}>
-                {item}
-              </p>
+              <div key={index}>
+                <h3>{item.company}</h3>
+                <p>{item.one}</p>
+                <p>{item.two}</p>
+                <p>{item.three}</p>
+              </div>
             ))}
           </div>
         </div>
