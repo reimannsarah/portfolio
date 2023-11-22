@@ -19,8 +19,14 @@
 
 body {
   margin: 0;
+  height: 100%;
   background-color: var(--background-color-linen);
+  position: relative;
 }
+
+/* .app {
+  
+} */
 
 .header {
   position: absolute;
@@ -109,17 +115,49 @@ body {
 }
 
 .footer {
+  margin: 0;
+  clear: both;
   width: 100%;
+  position: relative;
   height: 120px;
-  bottom: 0;
-  z-index: 3;
+  display: flex;
+  justify-content: space-between;
   background-color: var(--blue);
 }
 
 .footer img {
   width: 100px;
-  float: right;
-  margin: 10px;
+  height: 100px;
+  margin-right: 10px;
+  /* float: right; */
+  /* margin: 10px 10px 0 0 ; */
+}
+
+.footer p {
+  position: relative;
+  margin: 90px 0 10px 10px;
+  color: var(--background-color-linen);
+  opacity: 40%;
+}
+
+.logo-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+  margin: 3px 0 5px 0;
+  border-radius: 50%;
+  border: 1px solid var(--background-color-linen);
 }
 
 @media screen and (max-width: 1150px)  {
