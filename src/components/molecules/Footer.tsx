@@ -4,7 +4,14 @@ const Footer = () => {
   return (
     <div className='footer'>
       <p>&#xa9; Sarah Reimann</p>
-      <img src={logo} alt="logo"/>
+      <div className='logo-icons'>
+        <div className='icons'>
+          <div className='icon'></div>
+          <div className='icon'></div>
+          <div className='icon'></div>
+        </div>
+        <img src={logo} alt="logo"/>
+      </div>
     </div>
   )
 }
