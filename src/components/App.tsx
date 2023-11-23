@@ -2,7 +2,7 @@ import './App.css'
 import EduExp from './molecules/EduExp';
 import Header from './molecules/Header';
 import Skills from './molecules/Skills';
-import Footer from './molecules/Footer';
+// import Footer from './molecules/Footer';
 
 function App() {
 
@@ -11,7 +11,7 @@ function App() {
       <Header />
       <EduExp />
       <Skills />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }

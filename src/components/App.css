@@ -19,14 +19,12 @@
 
 body {
   margin: 0;
-  height: 100%;
   background-color: var(--background-color-linen);
-  position: relative;
-}
+  display: grid;
+    height: 100vh;
+    grid-template-rows: auto 1fr auto;
 
-/* .app {
-  
-} */
+}
 
 .header {
   position: absolute;
@@ -110,15 +108,12 @@ body {
   color: black;
 }
 
-.edu-exp ul li {
+.edu-exp p {
   font-family: var(--body-text);
 }
 
 .footer {
-  margin: 0;
-  clear: both;
   width: 100%;
-  position: relative;
   height: 120px;
   display: flex;
   justify-content: space-between;
@@ -129,8 +124,6 @@ body {
   width: 100px;
   height: 100px;
   margin-right: 10px;
-  /* float: right; */
-  /* margin: 10px 10px 0 0 ; */
 }
 
 .footer p {
