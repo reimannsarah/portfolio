@@ -1,3 +1,7 @@
+import js_logo from '../imgs/js_logo.png';
+import ts_logo from '../imgs/ts_logo.png';
+import react_logo from '../imgs/react_logo.png';
+
 const pageStrings = {
   header: "sarah reimann",
   education_subheader: "education",
@@ -34,15 +38,15 @@ const pageStrings = {
   skills: [
     {
       name: "JavaScript",
-      image: "image"
+      image: js_logo
     },
     {
       name: "TypeScript",
-      image: "image"
+      image: ts_logo
     },
     {
       name: "React",
-      image: "image"
+      image: react_logo
     },
   ]
 }
