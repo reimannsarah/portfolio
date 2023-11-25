@@ -88,6 +88,13 @@ body {
   height: 400px;
   width: 400px;
   border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.skills-circle p {
+  margin: 0;
 }
 
 .tabs {
