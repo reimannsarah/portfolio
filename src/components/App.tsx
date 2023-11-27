@@ -9,8 +9,13 @@ function App() {
   return (
     <div className='app'>
       <Header />
-      <EduExp />
-      <Skills />
+      <div className='hero'>
+        <EduExp />
+        <Skills />
+      </div>
+      <div className='middle1'></div>
+      <div className='middle2'></div>
+      <div className='bottom'></div>
       {/* <Footer /> */}
     </div>
   )
