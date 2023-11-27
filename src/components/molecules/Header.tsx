@@ -1,4 +1,4 @@
-import logo from '../../assets/imgs/logo.png'
+import logo from '../../assets/imgs/logo-white-bgc.png'
 import pageStrings from '../../assets/text/pageStrings';
 
 const Header: React.FC = () => {
