@@ -7,7 +7,7 @@ const Skills = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % pageStrings.skills.length);
-    }, 3000);
+    }, 1500);
 
     return () => {
       clearInterval(interval);
