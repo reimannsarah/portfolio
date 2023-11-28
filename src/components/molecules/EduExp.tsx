@@ -19,7 +19,8 @@ const EduExp: React.FC = () => {
           aria-label="edu-exp-tabs"
           sx={{
             "& .MuiTabs-indicator": {
-              backgroundColor: '#00916E'
+              backgroundColor: '#00916E',
+              height: 4
             },
           }}
         
