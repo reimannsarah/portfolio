@@ -23,15 +23,15 @@ const pageStrings = {
   experience: [
     {
       company: "Self Employed",
-      one: "point 1",
-      two: "point 2",
-      three: "point 3"
+      one: "Built website for local parenting consulting small business allowing clients to view services, contact business, ad make appointments",
+      two: "Designed and built webpage for local artist to upload photographs and showing portfolio",
+      three: "Designed and built campaign website for local city council campaign allowing for constituents to view platform, make donations, and contact candidate"
     },
     {
       company: "Olio",
-      one: "point 1",
-      two: "point 2",
-      three: "point 3"
+      one: "Implemented updates in styling and content on client website increasing navigability and site efficiency",
+      two: "Lead and AI research project resulting in decisions regarding integration of AI into company workflow",
+      three: "Built Express.js API with React front end for app allowing users to send invitations and receive server confirmation"
     }
   ],
   skills_subheader: "skills",
