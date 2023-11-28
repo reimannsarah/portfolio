@@ -58,7 +58,8 @@ const pageStrings = {
       name: ".NET",
       image: dotnet_logo
     }
-  ]
+  ],
+  projects_subheader: "projects"
 }
 
 export default pageStrings;
