@@ -1,6 +1,8 @@
 import js_logo from '../imgs/js_logo.png';
 import ts_logo from '../imgs/ts_logo.png';
 import react_logo from '../imgs/react_logo.png';
+import csharp_logo from '../imgs/csharp_logo_.png';
+import dotnet_logo from '../imgs/dot_net_logo.png';
 
 const pageStrings = {
   header: "sarah reimann",
@@ -48,6 +50,14 @@ const pageStrings = {
       name: "React",
       image: react_logo
     },
+    {
+      name: "C#",
+      image: csharp_logo
+    },
+    {
+      name: ".NET",
+      image: dotnet_logo
+    }
   ]
 }
 
