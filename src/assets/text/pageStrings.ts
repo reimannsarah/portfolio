@@ -27,7 +27,7 @@ const pageStrings = {
       company: "Self Employed",
       one: "Built website for local parenting consulting small business allowing clients to view services, contact business, ad make appointments",
       two: "Designed and built webpage for local artist to upload photographs and showing portfolio",
-      three: "Designed and built campaign website for local city council campaign allowing for constituents to view platform, make donations, and contact candidate"
+      three: "Designed and built website for local city council campaign allowing for constituents to view platform, make donations, and contact candidate"
     },
     {
       company: "Olio",
