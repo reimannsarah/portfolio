@@ -135,7 +135,7 @@ body {
   font-size: 20px;
 }
 
-.grey_wave {
+.wave {
   width: 100vw;
   z-index: 3;
   vertical-align: bottom;
@@ -198,6 +198,10 @@ body {
   font-weight: bolder;
   text-transform: uppercase;
   justify-self: baseline;
+}
+
+#yellow_wave {
+  background-color: var(--translucent-yellow);
 }
 
 .middle2 {
