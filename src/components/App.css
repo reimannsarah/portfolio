@@ -9,7 +9,6 @@
   --background-linen: #FEEFE5;
   --background-grey: #d8d8d8;
   --background-dark-grey: #8281819f;
-  /* --background-color-linen-dark: #e6ccbb; */
 
   --header-font: "Montserrat";
   --body-font: "Source Sans 3";
@@ -142,14 +141,9 @@ body {
 }
 
 .middle1 {
-  /* border-top: 4px solid var(--green); */
   background-color: var(--translucent-yellow);
 }
 
-.projects {
-  /* width: 90%; */
-  /* margin: 0 10%; */
-}
 
 #project-subheader {
   text-align: center;
@@ -177,8 +171,6 @@ body {
   width: 300px;
   margin: 15px;
   padding: 15px;
-  /* border-radius: 10px; */
-  /* box-shadow: 5px 5px 10px 2px black; */
   background-color: var(--background-grey);
 }
 
