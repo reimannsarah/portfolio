@@ -4,6 +4,7 @@ import Header from './molecules/Header';
 import Skills from './molecules/Skills';
 import Projects from './molecules/Projects';
 import project_list from './store';
+import About from './molecules/About';
 import Footer from './molecules/Footer';
 
 function App() {
@@ -19,7 +20,9 @@ function App() {
       <div className='middle1'>
         <Projects projects={project_list}/>
       </div>
-      <div className='middle2'></div>
+      <div className='middle2'>
+        <About />
+      </div>
       <div className='bottom'></div>
       <Footer />
     </div>
