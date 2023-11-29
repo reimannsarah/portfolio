@@ -43,7 +43,7 @@ const projects: { name: string, src: string, description: string, techStack:stri
   {
     name: "Prioritime",
     src: prioritime,
-    description: "Groupd project from Epicodus. This is an app where you can enter the amount of free time you have on a given day and then split that up into 15 minute blocks and assign the time to various activities.",
+    description: "Group project from Epicodus. This is an app where you can enter the amount of free time you have on a given day and then split that up into 15 minute blocks and assign the time to various activities.",
     techStack: "HTML | CSS | Javascript | Webpack | npm",
     url: "https://github.com/reimannsarah/prioritime.git"
   },
