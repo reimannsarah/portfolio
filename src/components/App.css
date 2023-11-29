@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fjalla+One&family=Inter&family=Lora&family=Montserrat&family=Roboto+Mono&family=Source+Sans+3:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alegreya+Sans+SC&family=Encode+Sans+Semi+Condensed:wght@300&family=Fjalla+One&family=Inter&family=Lora&family=Montserrat&family=Roboto+Mono&family=Source+Sans+3:wght@300&display=swap');
 :root {
   --red: #FA003F;
   --orange: #EE6123;
@@ -17,8 +16,8 @@
   --landing-pg-title1: "Fjalla One";
   --landing-pg-title2: "Abril Fat Face";
   --header: "Inter";
-  --subheader: "Roboto Mono";
-  --body-text: "Lora";
+  --subheader: "Alegreya Sans SC";
+  --body-text: "Encode Sans Semi Condensed";
 }
 
 body {
@@ -63,11 +62,6 @@ body {
   display: flex;
   justify-content: space-evenly;
   background-color: white;
-}
-
-.middle2 {
-  height: 400px;
-  background: white;
 }
 
 .bottom {
@@ -122,7 +116,7 @@ body {
   max-height: 600px;
   background-image: url('../assets/imgs/art1.png');
   background-size: cover;
-  background-position: center;
+  background-position: calc(50% - 20px) 30%;
 }
 
 #education-tab, #experience-tab {
@@ -204,6 +198,37 @@ body {
   font-weight: bolder;
   text-transform: uppercase;
   justify-self: baseline;
+}
+
+.middle2 {
+  background: white;
+}
+
+.about {
+  width: 80%;
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
+}
+
+.about-art {
+  background-image: url('../assets/imgs/art3.png');
+  background-size: cover;
+}
+
+.about-art img {
+  width: 600px;
+}
+
+.about-text h1 {
+  font-family: var(--subheader);
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.about p {
+  font-family: var(--body-text);
+  font-size: 20px;
 }
 
 .footer {
