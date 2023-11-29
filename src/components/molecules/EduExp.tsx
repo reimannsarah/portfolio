@@ -51,9 +51,11 @@ const EduExp: React.FC = () => {
             {pageStrings.experience.map((item, index) => (
               <div key={index}>
                 <h1>{item.company}</h1>
-                <p>{item.one}</p>
-                <p>{item.two}</p>
-                <p>{item.three}</p>
+                <ul>
+                  <li>{item.one}</li>
+                  <li>{item.two}</li>
+                  <li>{item.three}</li>
+                </ul>
               </div>
             ))}
           </div>
