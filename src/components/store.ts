@@ -5,6 +5,7 @@ import mouseMingle from '../assets/imgs/mouse-mingle.png';
 import prioritime from '../assets/imgs/prioritime.png';
 import currency from '../assets/imgs/currency.png';
 import galactic from '../assets/imgs/galactic.png';
+import studio_rjr from '../assets/imgs/studio_rjr.png';
 
 
 const projects: { name: string, src: string, description: string, techStack:string, url: string } [] = [
@@ -53,6 +54,14 @@ const projects: { name: string, src: string, description: string, techStack:stri
     src: currency,
     description: "An application where a user can exchange currency rates between 160 different currencies.",
     techStack: "HTML | Javascript | CSS | Webpack | npm",
+    url: "https://github.com/reimannsarah/currency-exchanger.git"
+  },
+
+  {
+    name: "Studio RJR Portfolio",
+    src: studio_rjr,
+    description: "A portfolio website for a local artist. User can browse art and contact artist",
+    techStack: "Typescript | TSX | Javascript | Vite | Node.js | CSS | Firebase",
     url: "https://github.com/reimannsarah/currency-exchanger.git"
   },
 
