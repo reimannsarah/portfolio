@@ -9,7 +9,6 @@
   --background-linen: #FEEFE5;
   --background-grey: #f4f4f4;
   --background-dark-grey: #8281819f;
-  /* --background-color-linen-dark: #e6ccbb; */
 
   --header-font: "Montserrat";
   --body-font: "Source Sans 3";
@@ -137,14 +136,9 @@ body {
 }
 
 .middle1 {
-  /* border-top: 4px solid var(--green); */
   background-color: var(--translucent-yellow);
 }
 
-.projects {
-  /* width: 90%; */
-  /* margin: 0 10%; */
-}
 
 #project-subheader {
   text-align: center;
@@ -174,8 +168,7 @@ body {
   border: 2px solid black;
   width: 300px;
   margin: 15px;
-  /* padding: 15px; */
-  /* border-radius: 10px; */
+  padding: 15px;
   box-shadow: 2px 2px 5px 1px rgb(103, 103, 103);
   background-color: var(--background-grey);
 }
