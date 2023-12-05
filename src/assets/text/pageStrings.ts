@@ -1,8 +1,4 @@
-import js_logo from '../imgs/js_logo.png';
-import ts_logo from '../imgs/ts_logo.png';
-import react_logo from '../imgs/react_logo.png';
-import csharp_logo from '../imgs/csharp_logo_.png';
-import dotnet_logo from '../imgs/dot_net_logo.png';
+import imageUrls from "../imgs/imageURLs";
 
 const pageStrings = {
   header: "sarah reimann",
@@ -40,23 +36,23 @@ const pageStrings = {
   skills: [
     {
       name: "JavaScript",
-      image: js_logo
+      url: imageUrls.js_logo
     },
     {
       name: "TypeScript",
-      image: ts_logo
+      url: imageUrls.ts_logo
     },
     {
       name: "React",
-      image: react_logo
+      url: imageUrls.react_logo
     },
     {
       name: "C#",
-      image: csharp_logo
+      url: imageUrls.csharp_logo
     },
     {
       name: ".NET",
-      image: dotnet_logo
+      url: imageUrls.dotnet_logo
     }
   ],
   projects_subheader: "projects",
