@@ -1,8 +1,11 @@
 import pageStrings from "../../assets/text/pageStrings";
 import {useState, useEffect} from "react";
+import useBlobImage from "../../services/useBlobImage";
 
 const Skills = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const imageUrl = pageStrings.skills[currentIndex].url;
+  const [currentImage] = useBlobImage(imageUrl);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -18,7 +21,7 @@ const Skills = () => {
     <div className="skills">
       <p>{pageStrings.skills_subheader}</p>
       <div className="skills-circle">
-        <img src={`${pageStrings.skills[currentIndex].image}`} alt={`a drawing of the ${pageStrings.skills[currentIndex].name} logo`} />
+        <img src={currentImage} alt={`a drawing of the ${pageStrings.skills[currentIndex].name} logo`} />
         <p>{pageStrings.skills[currentIndex].name}</p>
       </div>
     </div>
