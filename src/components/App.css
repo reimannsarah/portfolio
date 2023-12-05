@@ -113,9 +113,6 @@ body {
   padding: 0 15px;
   width: 50%;
   max-height: 600px;
-  background-image: url('../assets/imgs/art1.png');
-  background-size: cover;
-  background-position: calc(50% - 20px) 30%;
   font-family: var(--body-text);
   font-size: 20px;
 }
