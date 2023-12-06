@@ -1,16 +1,17 @@
-import logo from '../../assets/imgs/logo_name.png'
+import pageStrings from '../../assets/text/pageStrings';
+import imageUrls from '../../assets/imgs/imageURLs';
 
 const Footer = () => {
   return (
     <div className='footer'>
-      <p>&#xa9; Sarah Reimann</p>
+      <p>{pageStrings.copyright}</p>
       <div className='logo-icons'>
         <div className='icons'>
           <div className='icon'></div>
           <div className='icon'></div>
           <div className='icon'></div>
         </div>
-        <img src={logo} alt="logo"/>
+        <img src={imageUrls.logo_name} alt="logo"/>
       </div>
     </div>
   )

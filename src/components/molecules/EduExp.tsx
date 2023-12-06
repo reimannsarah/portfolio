@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Tab, Tabs, Slide } from '@mui/material';
 import pageStrings from '../../assets/text/pageStrings';
+import imageUrls from '../../assets/imgs/imageURLs';
 
 const EduExp: React.FC = () => {
   const [value, setValue] = useState(0);
@@ -10,7 +11,7 @@ const EduExp: React.FC = () => {
   };
 
   return (
-    <div className='edu-exp'>
+    <div className='edu-exp' style={{ backgroundImage: `url(${imageUrls.hero})`, backgroundSize: 'cover', backgroundPosition: 'calc(50% - 20px) 30%' }}>
       <div className='tabs'>
         <Tabs
           value={value}
