@@ -1,5 +1,5 @@
-import logo from '../../assets/imgs/logo_name.png';
 import pageStrings from '../../assets/text/pageStrings';
+import imageUrls from '../../assets/imgs/imageURLs';
 
 const Footer = () => {
   return (
@@ -11,7 +11,7 @@ const Footer = () => {
           <div className='icon'></div>
           <div className='icon'></div>
         </div>
-        <img src={logo} alt="logo"/>
+        <img src={imageUrls.logo_name} alt="logo"/>
       </div>
     </div>
   )

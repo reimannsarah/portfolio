@@ -2,11 +2,8 @@ import { useState } from 'react';
 import { Tab, Tabs, Slide } from '@mui/material';
 import pageStrings from '../../assets/text/pageStrings';
 import imageUrls from '../../assets/imgs/imageURLs';
-import useBlobImage from '../../services/useBlobImage';
 
 const EduExp: React.FC = () => {
-  const imageUrl = imageUrls.hero;
-  const imageSrc = useBlobImage(imageUrl);
   const [value, setValue] = useState(0);
 
   const handleChange = (_: React.SyntheticEvent, newValue: number) => {
@@ -14,7 +11,7 @@ const EduExp: React.FC = () => {
   };
 
   return (
-    <div className='edu-exp' style={{ backgroundImage: `url(${imageSrc})`, backgroundSize: 'cover', backgroundPosition: 'calc(50% - 20px) 30%' }}>
+    <div className='edu-exp' style={{ backgroundImage: `url(${imageUrls.hero})`, backgroundSize: 'cover', backgroundPosition: 'calc(50% - 20px) 30%' }}>
       <div className='tabs'>
         <Tabs
           value={value}
