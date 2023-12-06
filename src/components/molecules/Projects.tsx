@@ -1,4 +1,5 @@
 import pageStrings from "../../assets/text/pageStrings";
+// import useBlobImage from "../../services/useBlobImage";
 
 interface Project {
   name: string;
