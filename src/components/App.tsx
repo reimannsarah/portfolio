@@ -4,7 +4,6 @@ import Header from './molecules/Header';
 import Skills from './molecules/Skills';
 import Projects from './molecules/Projects';
 import pageStrings from '../assets/text/pageStrings';
-// import project_list from './store';
 import About from './molecules/About';
 import Footer from './molecules/Footer';
 
