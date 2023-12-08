@@ -26,6 +26,7 @@ function App() {
         <About />
       </div>
       <div className='bottom'>
+        <img src="https://srportfolio.blob.core.windows.net/portfolio-images/sarah2.jpg" alt="a photo of sarah" id='photo' />
         <Contact />
       </div>
       <Footer />
