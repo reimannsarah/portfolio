@@ -1,22 +1,35 @@
 import emailjs from '@emailjs/browser';
-import { useRef } from 'react';
+import { FormEvent, useRef } from 'react';
 
 const Contact: React.FC = () => {
-  c
+  const form = useRef<HTMLFormElement>(null);
+
+  const sendEmail = (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    if (form.current) {
+      emailjs.sendForm('service_nrsaumg', 'template_ersjlfe', form.current, 'lYQO_9AF7RV0XAyiZ')
+        .then((result) => {
+          console.log(result.text);
+        })
+        .catch((error) => {
+          console.log(error.text);
+        });
+    }
+  };
 
   return (
-    <div className="contact">
-      <form action="https://api.web3forms.com/submit" method="POST">
-        <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
-        <input type="text" name="name" required />
-        <input type="email" name="email" required />
-        <textarea name="message" required></textarea>
-        <div className="h-captcha" data-captcha="true"></div>
-        <button type="submit">Submit Form</button>
-      </form>
-      <script src="https://web3forms.com/client/script.js" async defer></script>
-    </div>
-  )
+    <form ref={form} onSubmit={sendEmail}>
+      <label>Name</label>
+      <input type="text" name="user_name" />
+      <label>Email</label>
+      <input type="email" name="user_email" />
+      <label>Message</label>
+      <textarea name="message" />
+      <input type="submit" value="Send" />
+    </form>
+  );
 }
 
 export default Contact;
+
