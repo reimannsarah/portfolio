@@ -5,6 +5,7 @@ import Skills from './molecules/Skills';
 import Projects from './molecules/Projects';
 import pageStrings from '../assets/text/pageStrings';
 import About from './molecules/About';
+import Contact from './molecules/Contact';
 import Footer from './molecules/Footer';
 
 function App() {
@@ -24,7 +25,9 @@ function App() {
       <div className='middle2'>
         <About />
       </div>
-      <div className='bottom'></div>
+      <div className='bottom'>
+        <Contact />
+      </div>
       <Footer />
     </div>
   )

@@ -1,4 +1,9 @@
+import emailjs from '@emailjs/browser';
+import { useRef } from 'react';
+
 const Contact: React.FC = () => {
+  c
+
   return (
     <div className="contact">
       <form action="https://api.web3forms.com/submit" method="POST">
