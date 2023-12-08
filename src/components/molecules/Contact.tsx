@@ -21,12 +21,10 @@ const Contact: React.FC = () => {
   return (
     <div className='contact-form'>
       <form ref={form} onSubmit={sendEmail}>
-        <label>Name</label>
-        <input type="text" name="user_name" />
-        <label>Email</label>
-        <input type="email" name="user_email" />
-        <label>Message</label>
-        <textarea name="message" />
+        <input type="text" name="user_name" placeholder='name'/>
+        <input type="email" name="user_email" placeholder='email'/>
+        <input type="ext" name="subject" placeholder='subject'/>
+        <textarea name="message" placeholder='message'/>
         <input type="submit" value="Send" />
       </form>
     </div>
