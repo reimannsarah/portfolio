@@ -220,7 +220,7 @@ body {
 }
 
 .bottom {
-  padding-bottom: 40px;
+  height: 600px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -229,10 +229,14 @@ body {
 }
 
 #photo {
-  width: 400px;
-  height: 400px;
+  width: 450px;
+  height: 450px;
   border-radius: 50%;
   border: 2px solid black;
+}
+
+.contact-form {
+  width: 600px;
 }
 
 .contact-form h1  {
@@ -255,10 +259,21 @@ body {
   padding: 10px;
   border-radius: 10px;
   border: 2px solid black;
+  font-family: var(--body-text);
 }
 
 .contact-form textarea {
   height: 100px;
+}
+
+#submit {
+  width: 80px;
+}
+
+#submit:hover {
+  background-color: var(--green);
+  color: white;
+  cursor: pointer;
 }
 
 .footer {
