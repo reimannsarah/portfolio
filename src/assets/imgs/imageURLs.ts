@@ -19,7 +19,8 @@ const imageUrls = {
   currency: 'https://srportfolio.blob.core.windows.net/portfolio-images/currency.png',
   studio_rjr: 'https://srportfolio.blob.core.windows.net/portfolio-images/studio_rjr.png',
   galactic: 'https://srportfolio.blob.core.windows.net/portfolio-images/galactic.png',
-  sarah_photo: 'https://srportfolio.blob.core.windows.net/portfolio-images/sarah2.jpg'
+  sarah_photo: 'https://srportfolio.blob.core.windows.net/portfolio-images/sarah2.jpg',
+  bottom_art: 'https://srportfolio.blob.core.windows.net/portfolio-images/art4.png'
 }
 
 export default imageUrls;
