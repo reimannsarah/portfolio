@@ -1,6 +1,6 @@
 import emailjs from '@emailjs/browser';
 import { FormEvent, useRef, useState } from 'react';
-import imageUrls from '../../assets/imgs/imageURLs';
+// import imageUrls from '../../assets/imgs/imageURLs';
 
 const Contact: React.FC = () => {
   const form = useRef<HTMLFormElement>(null);
@@ -27,7 +27,7 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <div className='contact-form' style={{ backgroundImage: `url(${imageUrls.bottom_art})`, backgroundSize: 'cover', backgroundPosition: 'calc(50% - 20px) 30%' }}>
+    <div className='contact-form'>
     {message ? (
       <h1>{message}</h1>
     ) : (
