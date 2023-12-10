@@ -34,10 +34,10 @@ const Contact: React.FC = () => {
       <>
         <h1>Send me a message</h1>
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name="user_name" placeholder='name'/>
-          <input type="email" name="user_email" placeholder='email'/>
-          <input type="ext" name="subject" placeholder='subject'/>
-          <textarea name="message" placeholder='message'/>
+          <input type="text" name="user_name" placeholder='name' required/>
+          <input type="email" name="user_email" placeholder='email' required/>
+          <input type="ext" name="subject" placeholder='subject' required/>
+          <textarea name="message" placeholder='message' required/>
           <input type="submit" value="Send" id='submit'/>
         </form>
       </>
