@@ -12,11 +12,13 @@ const imageUrls = {
   },
   skills_logos: {
     js_logo: 'https://srportfolio.blob.core.windows.net/portfolio-images/js_logo.png',
-    csharp_logo: 'https://srportfolio.blob.core.windows.net/portfolio-images/csharp_logo_.png',
-    css_logo: 'https://srportfolio.blob.core.windows.net/portfolio-images/css_logo.png',
-    dotnet_logo: 'https://srportfolio.blob.core.windows.net/portfolio-images/dot_net_logo.png',
+    ts_logo: 'https://srportfolio.blob.core.windows.net/portfolio-images/ts_logo.png',
     react_logo: 'https://srportfolio.blob.core.windows.net/portfolio-images/react_logo.png',
-    ts_logo: 'https://srportfolio.blob.core.windows.net/portfolio-images/ts_logo.png'
+    csharp_logo: 'https://srportfolio.blob.core.windows.net/portfolio-images/csharp_logo_.png',
+    dotnet_logo: 'https://srportfolio.blob.core.windows.net/portfolio-images/dot_net_logo.png',
+    css_logo: 'https://srportfolio.blob.core.windows.net/portfolio-images/css_logo.png',
+    express_logo: 'https://srportfolio.blob.core.windows.net/portfolio-images/express_logo.png',
+    node_logo: 'https://srportfolio.blob.core.windows.net/portfolio-images/node_logo.png'
   },
   projects: {
     mad_libs: 'https://srportfolio.blob.core.windows.net/portfolio-images/mad-libs.png',
@@ -30,6 +32,10 @@ const imageUrls = {
   },
   photos: {
   sarah_photo: 'https://srportfolio.blob.core.windows.net/portfolio-images/sarah2.jpg'
+  },
+  links: {
+    github: 'https://srportfolio.blob.core.windows.net/portfolio-images/github_logo.png',
+    linkedin: 'https://srportfolio.blob.core.windows.net/portfolio-images/linkedin_logo.png'
   }
 }
 
