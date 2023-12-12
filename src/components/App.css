@@ -284,17 +284,16 @@ body {
   background-color: var(--blue);
 }
 
-.footer img {
+#footer-logo {
   width: 100px;
   height: 100px;
-  margin-right: 10px;
+  margin: 10px 10px 10px 0;
 }
 
-.footer p {
-  position: relative;
-  margin: 90px 0 10px 10px;
-  color: var(--background-linen);
-  opacity: 40%;
+.copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .logo-icons {
@@ -303,18 +302,16 @@ body {
   align-items: center;
 }
 
-.icons {
-  display: flex;
-  flex-direction: column;
-  margin-right: 10px;
+.logo-icons img {
+  width: 50px;
+  margin: 0 10px;
 }
 
-.icon {
-  height: 20px;
-  width: 20px;
-  margin: 3px 0 5px 0;
-  border-radius: 50%;
-  border: 1px solid var(--background-linen);
+.footer p {
+  position: relative;
+  margin: 10px 0 10px 10px;
+  color: var(--background-linen);
+  opacity: 40%;
 }
 
 @media screen and (max-width: 1150px)  {
