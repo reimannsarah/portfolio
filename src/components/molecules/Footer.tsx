@@ -6,13 +6,10 @@ const Footer = () => {
     <div className='footer'>
       <p>{pageStrings.copyright}</p>
       <div className='logo-icons'>
-        <div className='icons'>
-          <div className='icon'></div>
-          <div className='icon'></div>
-          <div className='icon'></div>
-        </div>
-        <img src={imageUrls.logos.logo_name} alt="logo"/>
+        <img src={imageUrls.links.github} alt="GitHub logo" />
+        <img src={imageUrls.links.linkedin} alt="LinkedIn logo" />
       </div>
+        <img src={imageUrls.logos.logo_name} alt="logo"/>
     </div>
   )
 }
