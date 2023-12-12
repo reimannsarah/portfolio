@@ -11,7 +11,7 @@ const EduExp: React.FC = () => {
   };
 
   return (
-    <div className='edu-exp' style={{ backgroundImage: `url(${imageUrls.hero})`, backgroundSize: 'cover', backgroundPosition: 'calc(50% - 20px) 30%' }}>
+    <div className='edu-exp' style={{ backgroundImage: `url(${imageUrls.art.hero})`, backgroundSize: 'cover', backgroundPosition: 'calc(50% - 20px) 30%' }}>
       <div className='tabs'>
         <Tabs
           value={value}

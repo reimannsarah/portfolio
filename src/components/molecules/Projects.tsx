@@ -21,8 +21,7 @@ const Projects: React.FC<ProjectsProps> = ({ projects }) => {
         {projects.map((project, index) => {
           return (
           <div className="card" key={index}>
-            <a href={project.url} className="host-link" target="_blank"/>
-            <img src={project.src}/>
+            <a href={project.url} className="host-link" target="_blank"><img src={project.src}/></a>
             <h1 className="proj-title">{project.name}</h1>
             <p>{project.description}</p>
             <p id="tech-stack">{project.techStack}</p>

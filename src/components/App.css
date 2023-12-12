@@ -63,11 +63,6 @@ body {
   background-color: white;
 }
 
-.bottom {
-  height: 400px;
-  background-color: var(--background-grey);
-}
-
 .skills {
   padding: 24px 20px;
   border-radius: 10px;
@@ -224,6 +219,63 @@ body {
   color: #696969;
 }
 
+.bottom {
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: var(--translucent-yellow);
+}
+
+#photo {
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.contact-form {
+  width: 600px;
+}
+
+.contact-form h1  {
+  font-family: var(--subheader);
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 400px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+  font-family: var(--body-text);
+}
+
+.contact-form textarea {
+  height: 100px;
+}
+
+#submit {
+  width: 80px;
+}
+
+#submit:hover {
+  background-color: var(--green);
+  color: white;
+  cursor: pointer;
+}
+
 .footer {
   width: 100%;
   height: 120px;
@@ -232,17 +284,17 @@ body {
   background-color: var(--blue);
 }
 
-.footer img {
+#footer-logo {
   width: 100px;
   height: 100px;
-  margin-right: 10px;
+  margin: 10px 10px 10px 0;
 }
 
-.footer p {
-  position: relative;
-  margin: 90px 0 10px 10px;
-  color: var(--background-linen);
-  opacity: 40%;
+.copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .logo-icons {
@@ -251,18 +303,16 @@ body {
   align-items: center;
 }
 
-.icons {
-  display: flex;
-  flex-direction: column;
-  margin-right: 10px;
+.logo-icons img {
+  width: 50px;
+  margin: 0 10px;
 }
 
-.icon {
-  height: 20px;
-  width: 20px;
-  margin: 3px 0 5px 0;
-  border-radius: 50%;
-  border: 1px solid var(--background-linen);
+.footer p {
+  position: relative;
+  margin: 10px 0 10px 10px;
+  color: var(--background-linen);
+  opacity: 40%;
 }
 
 @media screen and (max-width: 1150px)  {
