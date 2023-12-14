@@ -143,6 +143,8 @@ const pageStrings = {
 
       p4: "In my free time, I like to play chess, go hiking, try new running routes, go camping in my van, and spend time with my cat.",
 
+      p5: "In my free time, I like to play chess, go hiking, try new running routes, go camping in my van, and spend time with my cat.",
+
     },
     copyright: `\u00A9 Sarah Reimann 2023`
 }
