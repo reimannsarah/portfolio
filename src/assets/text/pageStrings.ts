@@ -135,7 +135,7 @@ const pageStrings = {
   ],
   about: {
       subheader: "about",
-      p1: "My name is Sarah Reimann, I'm 27 years old and I grew up in the southwest hills of Portland, OR. After finishing highschool at St.Mary's Academy, I went to Colorado College where I got my bachelor's degree in Political Science. I loved learning about the structures of government all around the world and thinking about how the systems can be improved. I especially loved living in the mountains in Colorado and spending my time hiking, skiing, and visiting my family in Denver.",
+      p1: "My name is , I'm 27 years old and I grew up in the southwest hills of Portland, OR. After finishing highschool at St.Mary's Academy, I went to Colorado College where I got my bachelor's degree in Political Science. I loved learning about the structures of government all around the world and thinking about how the systems can be improved. I especially loved living in the mountains in Colorado and spending my time hiking, skiing, and visiting my family in Denver.",
 
       p2: "After college, I worked in the service industry for several years and for an urban planning firm in Portland specializing in non-motorized transportation. I enjoyed both of these industries but ultimately decided that web development was my path.",
 
