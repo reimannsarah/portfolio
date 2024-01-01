@@ -11,11 +11,13 @@ const About: React.FC = () => {
         <p>{pageStrings.about.p3}</p>
         <p>{pageStrings.about.p4}</p>
       </div>
-      <div className='about-art' style={ { backgroundImage: `url(${imageUrls.art.middle_art2})`, backgroundSize: 'cover' }}>
-        <img src={imageUrls.art.middle_art1} alt="art" />
+      <div className='about-art' >
+        <img src={imageUrls.art.middle_art} alt="art" />
       </div>
     </div>
   )
 }
 
 export default About;
+
+//style={ { backgroundImage: `url(${imageUrls.art.middle_art})`, backgroundSize: 'cover' }}

@@ -199,13 +199,9 @@ body {
   align-items: center;
 }
 
-.about-art {
-  background-image: url('../assets/imgs/art3.png');
-  background-size: cover;
-}
-
 .about-art img {
-  width: 600px;
+  width: 100%;
+  height: 100%;
 }
 
 .about-text h1 {
