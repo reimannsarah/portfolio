@@ -6,8 +6,7 @@ const imageUrls = {
   },
   art: {
     hero: 'https://srportfolio.blob.core.windows.net/portfolio-images/art1.png',
-    middle_art1: 'https://srportfolio.blob.core.windows.net/portfolio-images/art2.png',
-    middle_art2: 'https://srportfolio.blob.core.windows.net/portfolio-images/art3.png',
+    middle_art: 'https://srportfolio.blob.core.windows.net/portfolio-images/art2.png',
     bottom_art: 'https://srportfolio.blob.core.windows.net/portfolio-images/art4.png'
   },
   skills_logos: {
