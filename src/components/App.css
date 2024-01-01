@@ -122,7 +122,8 @@ body {
 }
 
 .wave {
-  width: 100vw;
+  width: fit-content;
+  height: first-content;
   z-index: 3;
   vertical-align: bottom;
 }
