@@ -135,14 +135,13 @@ const pageStrings = {
   ],
   about: {
       subheader: "about",
-      p1: "Hi! I'm Sarah! I'm 27 years old and I grew up in the southwest hills of Portland, OR. After finishing highschool at St.Mary's Academy, I went to Colorado College where I got my bachelor's degree in Political Science. I loved learning about the structures of government all around the world and thinking about how the systems can be improved. I especially loved living in the mountains in Colorado and spending my time hiking, skiing, and visiting my family in Denver.",
+      p1: "I am a full stack developer with a background in urban planning and political science. Passionate about creating efficient and user friendly applications, I am a quick learner and am dedicated to continuous improvement.",
 
-      p2: "After college, I worked in the service industry for several years and for an urban planning firm in Portland specializing in non-motorized transportation. I enjoyed both of these industries but ultimately decided that web development was my path.",
+      p2: "I fell in love with coding when I began to learn JavaScript and discovered how powerful programming languages can be. It is a perfect balance of logic and creativity. I love solving puzzles, finding order in chaos and I am passionate about design. I am looking for a job where I can put all my skills to work.",
 
-      p3: "Coding is a perfect balance of logic and creativity. I love solving puzzles, creating order and I am passionate about design. Coding is the best of both worlds.",
+      p3: "In my free time, I like to play chess, go hiking, try new running routes, go camping in my van, and spend time with my family.",
 
-      p4: "In my free time, I like to play chess, go hiking, try new running routes, go camping in my van, and spend time with my cat.",
-      p5: "In my free time, I like to play chess, go hiking, try new running routes, go camping in my van, and spend time with my cat.",
+      p4: "Send me an email, I'd love to chat!",
 
     },
     copyright: `\u00A9 Sarah Reimann 2023`
