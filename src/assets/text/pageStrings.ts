@@ -141,7 +141,7 @@ const pageStrings = {
 
       p3: "In my free time, I like to play chess, go hiking, try new running routes, go camping in my van, and spend time with my family.",
 
-      p4: "Send me an email, I'd love to chat!",
+      p4: "I am actively seeking employment. Send me an email, I'd love to chat!",
 
     },
     copyright: `\u00A9 Sarah Reimann 2023`
