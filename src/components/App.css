@@ -9,6 +9,7 @@
   --background-linen: #FEEFE5;
   --background-grey: #f4f4f4;
   --background-dark-grey: #8281819f;
+  --color: #082e48;
 
   --header-font: "Montserrat";
   --body-font: "Source Sans 3";
@@ -21,8 +22,9 @@
 
 body {
   margin: 0;
-  background-color: #FFFFFF;
-  height: 100vh;
+  height: 100%;
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(12,71,103,1) 35%, rgba(12,71,103,1) 100%);
 }
 
 .header {
@@ -31,7 +33,7 @@ body {
   top: 0;
   width: 100vw;
   height: 250px;
-  background-color: var(--blue);
+  /* background-color: var(--blue); */
 }
 
 .header-name {
@@ -43,7 +45,7 @@ body {
   font-size: 100px;
   font-family: var(--header);
   z-index: 2;
-  color: white;
+  color: var(--blue);
 }
 
 .logo {
@@ -60,7 +62,7 @@ body {
   margin-top: 310px;
   display: flex;
   justify-content: space-evenly;
-  background-color: white;
+  /* background-color: white; */
 }
 
 .skills {
@@ -110,6 +112,7 @@ body {
   max-height: 600px;
   font-family: var(--body-text);
   font-size: 20px;
+  color: white;
 }
 .edu-exp h1 {
   font-size: 30px;
@@ -118,7 +121,13 @@ body {
 #education-tab, #experience-tab {
   font-family: var(--subheader);
   font-size: 40px;
-  color: black;
+  color: white;
+}
+
+#top-wave {
+  
+  fill: rgb(2,0,36);
+  fill: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(12,71,103,1) 35%, rgba(8,46,72,1) 100%);
 }
 
 .wave {
@@ -129,7 +138,8 @@ body {
 }
 
 .middle1 {
-  background-color: var(--translucent-yellow);
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 35%, rgba(12,71,103,1) 35%, rgba(9,46,72,1) 100%);
 }
 
 
@@ -185,11 +195,11 @@ body {
 }
 
 #yellow_wave {
-  background-color: var(--translucent-yellow);
+  /* background-color: var(--translucent-yellow); */
 }
 
 .middle2 {
-  background: white;
+  /* background: white; */
 }
 
 .about {
@@ -222,7 +232,7 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  background-color: var(--translucent-yellow);
+  /* background-color: var(--translucent-yellow); */
 }
 
 #photo {
