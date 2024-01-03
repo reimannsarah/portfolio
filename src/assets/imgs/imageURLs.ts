@@ -3,6 +3,8 @@ const imageUrls = {
     logo: 'https://srportfolio.blob.core.windows.net/portfolio-images/logo-white-bgc.png',
     logo_name: 'https://srportfolio.blob.core.windows.net/portfolio-images/logo_name.png',
     logo_linen_bgc: 'https://srportfolio.blob.core.windows.net/portfolio-images/logo.png',
+    logo_translucent: 'https://srportfolio.blob.core.windows.net/portfolio-images/logo_translucent.png',
+    logo_rectangle: 'https://srportfolio.blob.core.windows.net/portfolio-images/logo_rectangle.png'
   },
   art: {
     hero: 'https://srportfolio.blob.core.windows.net/portfolio-images/art1.png',
