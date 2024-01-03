@@ -6,6 +6,10 @@
   --green: #00916E;
   --blue: #0C4767;
   --background-grey: #f4f4f4;
+  --top-wave: #0B1953;
+  --middle-wave: #1676BE;
+  --bottom-wave: #4C8DBC;
+  --footer-color: #091049;;
 
   --header-font: "Montserrat";
   --body-font: "Source Sans 3";
@@ -40,7 +44,6 @@ body {
   top: 0;
   width: 100vw;
   height: 250px;
-  /* background-color: var(--blue); */
 }
 
 .header-name {
@@ -69,7 +72,6 @@ body {
   margin-top: 310px;
   display: flex;
   justify-content: space-evenly;
-  /* background-color: white; */
 }
 
 .skills {
@@ -131,17 +133,14 @@ body {
   color: white;
 }
 
-#top-wave {
-  
-  fill: rgb(2,0,36);
-  fill: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(12,71,103,1) 40%, rgba(8,46,72,1) 100%);
-}
-
 .wave {
   width: fit-content;
   height: first-content;
-  z-index: 3;
   vertical-align: bottom;
+}
+
+#top-wave {
+  background-color: var(--top-wave)
 }
 
 .middle1 {
@@ -159,7 +158,6 @@ body {
   hsl(206deg 79% 42%) 100%
 );
 }
-
 
 #project-subheader {
   text-align: center;
@@ -191,7 +189,7 @@ body {
   width: 300px;
   margin: 15px;
   padding: 15px;
-  box-shadow: 2px 2px 5px 1px rgb(103, 103, 103);
+  box-shadow: 2px 2px 5px 1px rgb(37, 37, 37);
   background-color: var(--background-grey);
 }
 
@@ -214,7 +212,7 @@ body {
 }
 
 #middle_wave {
-  background-color: #1676BE;
+  background-color: var(--middle-wave);
 }
 
 .middle2 {
@@ -258,8 +256,7 @@ body {
 }
 
 #bottom-wave {
-  background-color: #4C8DBC;
-
+  background-color: var(--bottom-wave);
 }
 
 .bottom {
@@ -324,7 +321,7 @@ body {
   height: 120px;
   display: flex;
   justify-content: space-between;
-  background-color: #091049;
+  background-color: var(--footer-color);
 }
 
 #footer-logo {
